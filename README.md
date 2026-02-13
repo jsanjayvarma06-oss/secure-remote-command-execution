@@ -4,6 +4,13 @@
 **Student:** [Your Name]  
 **Roll No:** [Your Roll Number]
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/Protocol-TCP-green.svg" alt="TCP">
+  <img src="https://img.shields.io/badge/Security-SSL%2FTLS-red.svg" alt="SSL/TLS">
+  <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
+</p>
+
 ## 📋 Project Overview
 
 A secure client-server application that allows authenticated users to execute commands remotely over an encrypted SSL/TLS connection. The system implements proper authentication, command whitelisting, audit logging, and supports multiple concurrent clients.
