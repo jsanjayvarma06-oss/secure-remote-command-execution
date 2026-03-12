@@ -1,8 +1,8 @@
 # Secure Remote Command Execution System
 
 **Course:** Socket Programming - Jackfruit Mini Project  
-**Student:** [Your Name]  
-**Roll No:** [Your Roll Number]
+**Team Members:**  Sanjay Verma, Kaushik J, Kshitij G Shettigar
+**SRN:**  PES1UG24CS196, PES1UG24CS223, PES1UG24CS240
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python">
@@ -11,11 +11,11 @@
   <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
 </p>
 
-## 📋 Project Overview
+##  Project Overview
 
 A secure client-server application that allows authenticated users to execute commands remotely over an encrypted SSL/TLS connection. The system implements proper authentication, command whitelisting, audit logging, and supports multiple concurrent clients.
 
-## ✨ Features
+##  Features
 
 1. **TCP Socket Programming** - Low-level socket implementation
 2. **SSL/TLS Encryption** - All communication encrypted using TLS 1.2+
@@ -25,7 +25,7 @@ A secure client-server application that allows authenticated users to execute co
 6. **Multi-client Support** - Concurrent client handling using threading
 7. **Structured Protocol** - JSON-based communication protocol
 
-## 🏗️ Architecture
+##  Architecture
 ```
 ┌─────────────┐                    ┌─────────────┐
 │   Client 1  │◄────SSL/TLS────────┤             │
@@ -69,7 +69,7 @@ A secure client-server application that allows authenticated users to execute co
    - Interactive command interface
    - JSON protocol implementation
 
-## 🔒 Security Features
+##  Security Features
 
 - **SSL/TLS 1.2+** - All network traffic encrypted
 - **Authentication Required** - No commands without login
@@ -79,7 +79,7 @@ A secure client-server application that allows authenticated users to execute co
 - **Timeout Protection** - 10-second command execution limit
 - **Audit Trail** - Complete logging for forensics
 
-## 📡 Communication Protocol
+##  Communication Protocol
 
 ### Authentication Request
 ```json
@@ -118,7 +118,7 @@ A secure client-server application that allows authenticated users to execute co
 }
 ```
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -153,7 +153,7 @@ cd ..
 mkdir -p logs
 ```
 
-## 💻 Usage
+##  Usage
 
 ### Start the Server
 ```bash
@@ -204,7 +204,7 @@ remote> quit
 [*] Disconnecting...
 ```
 
-## 📊 Performance Evaluation
+##  Performance Evaluation
 
 ### Test Methodology
 - Measured connection time, authentication time, and command execution time
@@ -234,18 +234,18 @@ python3 tests/performance_test.py
 3. **Linear Performance** - Throughput scales near-linearly with clients
 4. **Stability** - No failures observed during stress testing
 
-## 🐛 Error Handling
+##  Error Handling
 
 The system handles:
-- ✅ SSL handshake failures
-- ✅ Invalid authentication attempts (3 tries max)
-- ✅ Unauthorized command execution
-- ✅ Client disconnections
-- ✅ Command timeouts
-- ✅ Invalid JSON requests
-- ✅ Network interruptions
+-  SSL handshake failures
+-  Invalid authentication attempts (3 tries max)
+-  Unauthorized command execution
+-  Client disconnections
+-  Command timeouts
+-  Invalid JSON requests
+-  Network interruptions
 
-## 📝 Audit Logs
+##  Audit Logs
 
 View logs:
 ```bash
@@ -260,7 +260,7 @@ Example log entries:
 2024-02-13 10:30:25 - INFO - COMMAND | admin | rm -rf / | FAILED
 ```
 
-## 🔧 Future Enhancements
+##  Future Enhancements
 
 - [ ] Database-backed user management
 - [ ] Role-based access control (RBAC)
@@ -269,7 +269,7 @@ Example log entries:
 - [ ] Web-based dashboard
 - [ ] Certificate-based authentication
 
-## 📚 Technologies Used
+##  Technologies Used
 
 - **Language:** Python 3
 - **Networking:** Socket library (TCP)
@@ -278,7 +278,7 @@ Example log entries:
 - **Protocol:** JSON
 - **Logging:** Python logging module
 
-## 👨‍💻 Development
+##  Development
 
 ### Project Structure
 ```
@@ -298,16 +298,8 @@ secure-remote-exec/
 └── README.md
 ```
 
-## 📄 License
+##  License
 
 This project is created for educational purposes as part of the Socket Programming course.
 
-## 🙏 Acknowledgments
-
-- Course: Socket Programming - Jackfruit Mini Project
-- Instructor: [Instructor Name]
-- Institution: [Your College Name]
-
 ---
-
-**Note:** This system is designed for educational purposes. For production use, implement additional security measures including proper certificate validation, database-backed authentication, and comprehensive input sanitization.
