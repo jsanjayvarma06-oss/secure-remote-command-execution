@@ -1,8 +1,8 @@
 # Secure Remote Command Execution System
 
 **Course:** Socket Programming - Jackfruit Mini Project  
-**Team Members:**  Sanjay Verma, Kaushik J, Kshitij G Shettigar
-**SRN:**  PES1UG24CS196, PES1UG24CS223, PES1UG24CS240
+**Team Members:**  Sanjay Varma, Kaushik J, Kshitij G Shettigar
+**SRN:**  PES1UG24CS194, PES1UG24CS223, PES1UG24CS240
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python">
